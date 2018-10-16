@@ -1,9 +1,14 @@
 ---
 title: "Code"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
-# Test 
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+## Test 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(warning = FALSE)
@@ -15,6 +20,7 @@ Look at this
 ```{r}
 library(ggplot2)
 library(dplyr)
+library(leaflet)
 ```
 
 
@@ -36,7 +42,26 @@ ggplot(data, aes(y,value,fill = group)) +
   theme(legend.position = "NULL")
 ```
 
-#Distance Measures 
+## Distance Measures 
+get all adresses in Odense from DAWA as .csv
+```{r}
+test <- read.csv(file = "http://dawa.aws.dk/adresser?postnr=5000&format=csv",encoding = "UTF-8")
+
+#Keep My adresses an another random one  
+N <- test %>% 
+  filter(grepl("Finlandgade",vejnavn) & husnr == 9 & etage == 6 & dør == "4" | 
+           grepl("Kløvervænget",vejnavn) & husnr == 10 & etage == 7 & dør == "701")
+```
+graph the adresses 
+```{r}
+leaflet(N) %>%
+  addTiles() %>%
+  addCircleMarkers(~wgs84koordinat_længde,~wgs84koordinat_bredde,popup = ~vejnavn, label = ~vejnavn)
+```
+
+
+
+
 
 
 
