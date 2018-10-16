@@ -1,17 +1,17 @@
 name: Nis
 output_dir: .
 navbar:
-  title: Nis Lydiksen2
+  title: Nis Lydiksen
   left:
   - text: Projects
     href: Projects.html
   - text: Code
-    href: code.html
+    href: Distance_measures.html
   - text: Programming
   - text: Teaching
   right:
   - icon: fa-envelope fa-lg
-    href: contact.html
+    href: nis.lydiksen@gmail.com
   - icon: fa-github fa-lg
     href: http://github.com/nisvl
   - icon: fa-linkedin fa-lg
