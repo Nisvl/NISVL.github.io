@@ -1,0 +1,25 @@
+name: Nis
+output_dir: .
+navbar:
+  title: Nis Lydiksen2
+  left:
+  - text: Projects
+    href: Projects.html
+  - text: Code
+    href: code.html
+  - text: Programming
+  - text: Teaching
+  right:
+  - icon: fa-envelope fa-lg
+    href: contact.html
+  - icon: fa-github fa-lg
+    href: http://github.com/nisvl
+  - icon: fa-linkedin fa-lg
+    href: https://www.linkedin.com/in/nis-lydiksen-540b52a7/
+output:
+  html_document:
+    theme: paper
+    css: styles.css
+    lib_dir: site_libs
+    self_contained: no
+
