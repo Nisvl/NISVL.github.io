@@ -1,0 +1,11 @@
+---
+title: "Projects"
+output: html_document
+---
+
+Currently working on: 
+
+  * The effect of antidepressant on socioeconomic outcomes
+  * Guideline thresholds and access to treatment 
+  * Prenatal screening and the effect of bad news 
+

@@ -1,0 +1,42 @@
+---
+title: "Code"
+output: html_document
+---
+
+# Test 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+```
+
+Look at this 
+
+```{r}
+library(ggplot2)
+library(dplyr)
+```
+
+
+Defining random stuff
+```{r,}
+g1 <- cbind.data.frame(group = "Group1", value =  3 + rnorm(1000,sd = 4))
+g2 <- cbind.data.frame(group = "Group2", value = -2 + rnorm(1000,sd = 2))
+
+data <- rbind.data.frame(g1,g2)
+data$y <- runif(1000)
+```
+
+
+Graphing 
+```{r}
+ggplot(data, aes(y,value,fill = group)) + 
+  geom_bin2d(bins = 50, color = "black") + 
+  theme_bw() + 
+  theme(legend.position = "NULL")
+```
+
+#Distance Measures 
+
+
+
