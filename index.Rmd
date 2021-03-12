@@ -1,5 +1,14 @@
-<img src="billede.jpg" style="width:25%; border:5px solid; margin-right: 20px" align="left">
+---
+title: 
+output: html_document
+---
 
-I'm a PhD-student at the [the University of Southern Denmark](http://findresearcher.sdu.dk:8080/portal/da/person/nisvl) and at [VIVE – The Danish Center for Social Science Research](https://vive.dk/english/) 
 
-Virker det her! 
+<img src="Nis Lydiksen 6609_comp.jpg" style="width:50%; border:5px solid; margin-right: 20px" align="left">
+
+I'm a PhD-student in economics at [the University of Southern Denmark](http://findresearcher.sdu.dk:8080/portal/da/person/nisvl) and [VIVE – The Danish Center for Social Science Research](https://vive.dk/english/).  I do research at the intersection of health and labor economics on topics ranging from the effect of antidepressant to the impact of children on labour market outcomes.  
+
+[Current projects](Projects.html)
+
+See my [CV](CVnis.pdf)
+

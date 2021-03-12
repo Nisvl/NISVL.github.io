@@ -1,0 +1,16 @@
+---
+title: "Contact"
+output: html_document
+---
+
+My office is located at the University of Southern Denmark, room number V3-206-c2.
+
+Campusvej 55
+
+5230 Odense M
+
+Danmark
+
+  * Personal e-mail: nis.lydiksen[at]gmail.com
+  * SDU e-mail: nisvl[at]sam.sdu.dk
+  * VIVE e-mail: nily[at]vive.dk
