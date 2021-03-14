@@ -17,5 +17,4 @@ navbar:
     href: https://www.linkedin.com/in/nis-lydiksen-540b52a7 
 output:
   html_document:
-    theme: paper
-    output_dir: "docs"
+    theme: darkly
